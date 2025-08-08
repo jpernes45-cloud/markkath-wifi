@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mark Kath Starlink WiFi Payment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Mark Kath Starlink WiFi</h1>
+    <p class="tagline">Pay Your Monthly Dues</p>
+    <form action="https://formsubmit.co/jpernes45@gmail.com" method="POST" enctype="multipart/form-data">
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="Full Name" required />
+      <label for="address">Complete Address:</label>
+      <input type="text" id="address" name="Address" required />
+      <label for="contact">Contact Number:</label>
+      <input type="text" id="contact" name="Contact" required />
+      <label for="plan">Selected Plan:</label>
+      <select id="plan" name="Selected Plan" required>
+        <option value="">Select a Plan</option>
+        <option value="₱799 - 50 Mbps">₱799 - 50 Mbps</option>
+        <option value="₱999 - 75 Mbps">₱999 - 75 Mbps</option>
+        <option value="₱1499 - 110 Mbps">₱1499 - 110 Mbps</option>
+      </select>
+      <label for="method">Payment Method:</label>
+      <select id="method" name="Payment Method" required>
+        <option value="">Select One</option>
+        <option value="GCash - 0993 997 0493">GCash - 0993 997 0493</option>
+        <option value="Maya - 0993 997 0493">Maya - 0993 997 0493</option>
+        <option value="BPI - 0929564728">BPI - 0929564728</option>
+        <option value="GoTyme - 09123456789">GoTyme - 09123456789</option>
+      </select>
+      <p class="note" style="font-size: 1.2em; color: #87cefa; margin-top: 20px;">
+        📲 Please open your selected payment app to complete the payment.<br>
+        📌 <strong>Take a screenshot of your payment before submitting.</strong>
+      </p>
+      <label for="screenshot">Upload Proof of Payment:</label>
+      <input type="file" id="screenshot" name="Proof of Payment" accept="image/*" required />
+      <input type="hidden" name="_next" value="thankyou.html">
+      <input type="hidden" name="_captcha" value="false">
+      <button type="submit" class="submit-btn">Submit Proof of Payment</button>
+    </form>
+    <div style="text-align:center; margin-top: 20px;">
+      <a href="apply.html" class="messenger-btn">📋 Apply for a Plan</a>
+    </div>
+  </div>
+</body>
+</html>

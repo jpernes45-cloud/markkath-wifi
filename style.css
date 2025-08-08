@@ -1,0 +1,102 @@
+body {
+  background-color: #0a0a0a;
+  font-family: Arial, sans-serif;
+  color: gold;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gold;
+  margin-top: 40px;
+}
+h1 {
+  text-align: center;
+  color: #ffd700;
+}
+.tagline {
+  text-align: center;
+  color: #4682b4;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-top: 10px;
+  color: #fff;
+}
+input, select {
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: gold;
+}
+.note {
+  margin-top: 15px;
+  font-size: 1.2em;
+  color: #87cefa;
+}
+.submit-btn {
+  background-color: #00008b;
+  color: gold;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.submit-btn:hover {
+  background-color: #1e90ff;
+}
+.thankyou-container {
+  max-width: 700px;
+  margin: 100px auto;
+  padding: 40px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  text-align: center;
+  color: gold;
+  box-shadow: 0 0 25px #ffd700;
+}
+.thankyou-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #ffd700;
+}
+.thankyou-container p {
+  font-size: 1.2em;
+  color: #87cefa;
+  margin-bottom: 30px;
+}
+.back-btn, .messenger-btn {
+  padding: 12px 25px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #00008b;
+  color: gold;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin: 10px;
+}
+.back-btn:hover, .messenger-btn:hover {
+  background-color: #1e90ff;
+}
+.logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ffd700;
+}

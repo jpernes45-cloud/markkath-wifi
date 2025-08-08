@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Apply for Mark Kath WiFi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Apply for Mark Kath Starlink WiFi</h1>
+    <div style="text-align:center; margin-bottom: 20px;">
+      <a href="index.html" class="messenger-btn">🔙 Back to Payment Method</a>
+    </div>
+    <p class="tagline">Fast. Affordable. No Lock-in.</p>
+    <form action="https://formsubmit.co/jpernes45@gmail.com" method="POST" enctype="multipart/form-data">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="Full Name" required />
+      <label for="contact">Contact Number:</label>
+      <input type="text" id="contact" name="Contact Number" required />
+      <label for="address">Complete Address:</label>
+      <input type="text" id="address" name="Address" required />
+      <label for="plan">Choose a Plan:</label>
+      <select id="plan" name="Selected Plan" required>
+        <option value="">Select a Plan</option>
+        <option value="₱799 - 50 Mbps">₱799 - 50 Mbps</option>
+        <option value="₱999 - 75 Mbps">₱999 - 75 Mbps</option>
+        <option value="₱1499 - 110 Mbps">₱1499 - 110 Mbps</option>
+      </select>
+      <label for="valid-id">Upload Valid ID:</label>
+      <input type="file" id="valid-id" name="Valid ID" accept="image/*,application/pdf" required />
+      <label for="house-pic">Upload Photo of Your House:</label>
+      <input type="file" id="house-pic" name="House Photo" accept="image/*" required />
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="thankyou.html">
+      <button type="submit" class="submit-btn">Submit Application</button>
+    </form>
+  </div>
+</body>
+</html>
